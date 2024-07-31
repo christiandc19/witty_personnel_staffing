@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/witty_personnel_staffing/static/css/main.039db9b3.css",
-    "main.js": "/witty_personnel_staffing/static/js/main.89f9e762.js",
+    "main.css": "/witty_personnel_staffing/static/css/main.88eea960.css",
+    "main.js": "/witty_personnel_staffing/static/js/main.16168008.js",
     "static/media/about_us_section.webp": "/witty_personnel_staffing/static/media/about_us_section.44e7dbbf2dd38f424c0a.webp",
     "static/media/female_nurse_2.webp": "/witty_personnel_staffing/static/media/female_nurse_2.4d76e14c62b76ab0e577.webp",
     "static/media/job_details_hero.webp": "/witty_personnel_staffing/static/media/job_details_hero.cbea6d2631e71fd7de30.webp",
@@ -40,13 +40,14 @@
     "static/media/male_nurse_III.webp": "/witty_personnel_staffing/static/media/male_nurse_III.377dd94ae50ef5b32d73.webp",
     "static/media/correctional_health_hero.webp": "/witty_personnel_staffing/static/media/correctional_health_hero.ba4d2d1f0df36ce4ad53.webp",
     "static/media/section-bg2.webp": "/witty_personnel_staffing/static/media/section-bg2.f7c73368e3ec0f60f914.webp",
+    "static/media/Kinta.ttf": "/witty_personnel_staffing/static/media/Kinta.aacb623e5f18f68d5de1.ttf",
     "static/media/section-bg.webp": "/witty_personnel_staffing/static/media/section-bg.49c34a6b7b4a2979d594.webp",
     "index.html": "/witty_personnel_staffing/index.html",
-    "main.039db9b3.css.map": "/witty_personnel_staffing/static/css/main.039db9b3.css.map",
-    "main.89f9e762.js.map": "/witty_personnel_staffing/static/js/main.89f9e762.js.map"
+    "main.88eea960.css.map": "/witty_personnel_staffing/static/css/main.88eea960.css.map",
+    "main.16168008.js.map": "/witty_personnel_staffing/static/js/main.16168008.js.map"
   },
   "entrypoints": [
-    "static/css/main.039db9b3.css",
-    "static/js/main.89f9e762.js"
+    "static/css/main.88eea960.css",
+    "static/js/main.16168008.js"
   ]
 }
