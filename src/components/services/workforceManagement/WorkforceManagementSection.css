@@ -1,0 +1,53 @@
+.workforce-management-section {
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px; /* Space between the image and text */
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.workforceTextvv-container {
+    text-align: center;
+    max-width: 100%;
+}
+
+.workforceText-container h1 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-family: 'El Messiri', sans-serif;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.workforceText-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+
+/* Responsive layout for larger screens */
+@media screen and (max-width: 940px) {
+    .content-container {
+      flex-wrap: wrap-reverse;
+    }
+    
+  }

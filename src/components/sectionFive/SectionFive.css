@@ -1,0 +1,94 @@
+.sectionFive {
+  background-color: #04768a8e; /* Change color as needed */
+  height: auto;
+  padding-top: 3rem;
+  }
+  
+.sectionFiveContent {
+    width: 100%;
+}
+
+.sectionFiveFlex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.sectionFiveText {
+  width: 100%;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.sectionFiveImage {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.sectionFiveImage:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/female_nurse_3.webp') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+}
+
+
+.sectionFiveContent h1 {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: 'El Messiri', sans-serif;
+  text-align: left;
+  padding: .5rem 0;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+.sectionFiveContent h2 {
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  padding: .5rem 0;
+}
+
+.sectionFiveContent ul {
+  padding: 0 1rem;
+}
+
+.sectionFiveContent ul li {
+  text-align: left;
+  color: white;
+  font-weight: normal;
+  list-style: disc;
+}
+
+.sectionFiveBtn {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .sectionFiveButton1 button {
+    background-color: white;
+    color: var(--primary-color);
+  }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .sectionFiveFlex {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+
+
+
+

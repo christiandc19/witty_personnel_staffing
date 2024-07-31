@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.nursingSection {
+  padding: 3rem 0;
+}
+
+.nursingSectionHeader {
+  padding: 0 1rem;
+}
+.nursingSectionContent {
+  padding: 2rem 1rem;
+}
+
+.nursingSectionHeader p {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.nursingSectionHeader h1 {
+  color: rgba(23, 102, 121, 0.877);
+  font-family: 'El Messiri', sans-serif;
+  text-align: left;
+  padding: .5rem 0;
+  font-weight: normal;
+}
+
+.nursingSectionFlex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.nursingSectionLeft {
+  width: 100%;
+  margin: auto 0;
+}
+
+.nursingSectionRight {
+  width: 100%;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.nursingSectionRight img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nursingSectionLeft h1 {
+  color: rgb(4, 66, 117);
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  padding: .5rem 0;
+}
+
+.nursingSectionLeft p {
+  text-align: justify;
+  line-height: normal
+}
+
+.nursingSectionLeft ul {
+  list-style-type: disc;
+  padding: 0 1rem;
+}
+
+.nurseSectionFooter {
+  padding: 1rem;
+}
+
+.nurseSectionFooter h1 {
+  color: rgb(4, 66, 117);
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  padding: .5rem 0;
+}
+
+.nurseSectionFooter ul {
+  padding: 0 1rem;
+}
+
+.nurseSectionFooter ul li{
+  padding: 0 .5rem;
+  list-style-type: disc;
+  text-align: left 
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:900px) {
+  .nursingSectionFlex {
+    flex-wrap: wrap-reverse;
+  }
+
+  .nursingSectionLeft {
+    width: 100%;
+  }
+  
+  .nursingSectionRight {
+    width: 100%;
+  }
+}
+
+

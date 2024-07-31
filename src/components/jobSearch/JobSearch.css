@@ -1,0 +1,156 @@
+/* src/components/JobSearch.css */
+
+.JobSearchSection-bg {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.JobSearchSection-bg:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.webp') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.06;
+}
+
+.jobSearch {
+    padding: 1rem;
+  }
+  
+  .jobSearchHeader{
+    padding: 1rem;
+  }
+
+  .jobSearchHeader h1 {
+    color: rgb(4, 66, 117);
+    font-weight: normal;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding: .5rem 0;
+  }
+
+  .jobSearchHeader h2 {
+    color: rgb(4, 66, 117);
+    font-weight: normal;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 1rem;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 49%;
+  }
+
+
+.no-job-match {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+  .job-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+    width: 100%;
+  }
+
+  .job-list li {
+    width: 30%;
+  }
+  
+  .job-item {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .job-item:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-title {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .job-description {
+    margin: 0 0 10px;
+    color: #666;
+  }
+  
+  .job-location {
+    margin: 0 0 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .job-salary {
+    margin: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  .job-location {
+    font-weight: normal;
+  }
+
+  .job-salary {
+    font-weight: normal;
+    color: rgb(68, 66, 66);
+  }
+
+  .pagination {
+    text-align: right;
+    padding: 2rem 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pagination button {
+    margin: 0 1rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+
+
+  
+
+  @media screen and (max-width: 940px) {
+    .job-list li {
+      width: 45%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .job-list li {
+      width: 100%;
+    }
+
+    .pagination {
+      text-align: center;
+    }
+  }

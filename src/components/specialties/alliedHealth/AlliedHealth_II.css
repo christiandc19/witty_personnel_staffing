@@ -1,0 +1,79 @@
+.AlliedHealth2Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.AlliedHealth2Image {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.AlliedHealth2Image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+}
+
+.AlliedHealth2Text {
+    text-align: center;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.AlliedHealth2Text h1 {
+    font-size: 1.5rem;
+    color: rgba(23, 102, 121, 0.877);
+    font-family: 'El Messiri', sans-serif;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 3px;
+    line-height: 2rem;
+}
+
+.AlliedHealth2Text p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.AlliedHealth2Text ul {
+    padding: 0 1rem;
+}
+
+.AlliedHealth2Text ul li{
+    padding: 0 .5rem;
+    list-style-type: disc;
+    text-align: left 
+}
+
+.hrLine {
+    border-top: 1px dashed  var(--primary-color);
+    margin-top: 2rem;
+}
+
+/* Responsive layout for larger screens */
+@media screen and (max-width: 940px) {
+    .AlliedHealth2Container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .AlliedHealth2Text p {        
+        text-align: justify;
+    }
+
+    .AlliedHealth2Text h2 {
+        text-align: center;
+    }
+
+    .hrLine {
+        width: 40%;
+    }
+
+}
