@@ -37,13 +37,14 @@
 
 
 .sectionFiveContent h1 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: rgba(255, 255, 255, 0.877);
-  font-family: 'El Messiri', sans-serif;
+  font-family: "kinta";
   text-align: left;
   padding: .5rem 0;
   font-weight: normal;
   letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .sectionFiveContent h2 {

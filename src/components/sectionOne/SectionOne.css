@@ -31,28 +31,27 @@
 }
 
 .hero-text h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     color: rgba(23, 102, 121, 0.877);
-    font-family: 'El Messiri', sans-serif;
+    font-family: "kinta";
     text-align: left;
     font-weight: normal;
     letter-spacing: 3px;
-    line-height: 2rem;
+    line-height: 4rem;
+    text-transform: uppercase;
 }
 
 .hero-text h2 {
     color: rgb(4, 66, 117);
-    letter-spacing: 3px;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
     text-align: left;
 }
 
 .hero-text h3 {
   font-weight: normal;
-  font-style: italic;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: .5rem 0;
 }
 
@@ -154,6 +153,9 @@
         text-align: center;
         font-weight: normal;
         letter-spacing: 3px;
+        font-size: 3.5rem;
+        line-height: 3rem;
+
     }
     
     .hero-text h2 {
@@ -184,7 +186,7 @@
 
 .hero-text h2 {
     letter-spacing: 1px;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .hero-text p {

@@ -41,11 +41,11 @@ const HeroPage = () => {
       <div className="hero-container container">
         <div className="hero-text">
           <h1>Witty Personnel</h1>
-          <h2><TextAnimation words={words} fadeDuration={2000} displayDuration={2000} /></h2>
-          <h3>Where Healthcare Professionals and Opportunities Meet</h3>
+          <h2>Your Trusted Partner in Healthcare Staffing</h2>
+          <h3><TextAnimation words={words} fadeDuration={2000} displayDuration={2000} /></h3>
           <hr/>
           <p>
-            At Witty Personnel, we specialize in connecting healthcare facilities with highly qualified professionals, ensuring optimal patient care and operational efficiency. Our comprehensive staffing solutions cover a wide range of medical and allied health disciplines, tailored to meet the unique needs of each client.
+          Quality is at the heart of everything we do. We rigorously vet our candidates to ensure they meet the highest standards of competence and professionalism.
           </p>
           <div className='heroIcons'>
             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>

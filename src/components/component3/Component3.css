@@ -31,9 +31,9 @@
 }
 
 .c3-left h1 {
-    font-size: .8rem;
+    font-size: 1rem;
     color: var(--primary-color);
-    font-family: 'El Messiri', sans-serif;
+    font-family: "kinta";
     text-align: left;
     padding: .5rem 0;
     font-weight: normal;
@@ -41,10 +41,9 @@
   }
   
 .c3-left h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     padding: .5rem 0;
-    letter-spacing: 3px;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.589);
     line-height: 2rem;

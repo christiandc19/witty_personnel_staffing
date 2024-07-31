@@ -11,6 +11,12 @@
 }
 
 
+font-face {
+  font-family: "kinta";
+  src: local("kinta"),
+   url("./assets/Kinta.ttf") format("truetype");
+  font-weight: normal;
+ }
 
 body {
   margin: 0;

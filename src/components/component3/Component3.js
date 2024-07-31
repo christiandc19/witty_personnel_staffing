@@ -19,7 +19,7 @@ const Component3 = () => {
           <Zoom duration={2000}>
 
           <h1>ABOUT US</h1>            
-          <h2>Connecting Excellence with Compassion in Healthcare Staffing</h2>
+          <h2>Commitment. Quality. Expertise.</h2>
 
             <p>
             At Witty Personnel, we are passionate about connecting healthcare facilities with exceptional professionals. Our mission is to enhance the quality of patient care and operational efficiency through comprehensive staffing solutions tailored to the unique needs of each client.</p>

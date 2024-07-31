@@ -12,7 +12,7 @@ const sectionThree = () => {
 
           <div className="sectionThreeCaption">
             <div>
-              <h1>Join Our Network</h1>
+              <h1>JOIN OUR NETWORK</h1>
               <p>Are you a healthcare professional looking for new opportunities, or a facility in need of top-tier staff? Join the Witty Personnel network and experience the difference our commitment to excellence can make. </p>
             </div><br />
 

@@ -4,7 +4,6 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
-    gap: 1rem;
 }
 
   .sectionThreeImage span {
@@ -32,7 +31,6 @@
 .sectionThreeImage {
     width: 100%;
     margin: auto;
-
 }
 
 .sectionThreeImage img{
@@ -44,7 +42,7 @@
 .sectionThreeContent h1 {
     font-size: 1.5rem;
     color: rgba(23, 102, 121, 0.877);
-    font-family: 'El Messiri', sans-serif;
+    font-family: "kinta";
     text-align: left;
     font-weight: normal;
     letter-spacing: 3px;

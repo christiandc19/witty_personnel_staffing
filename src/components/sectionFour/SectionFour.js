@@ -21,7 +21,7 @@ const SectionFour = () => {
 
           <div className="sectionFourRight">
           <Zoom duration={2000}>
-          <h1>WHY Witty Personnel</h1>            
+          <h1>WHY WITTY PERSONNEL</h1>            
           <h2>We're here for you every step of the way.</h2>
 
             <p>
