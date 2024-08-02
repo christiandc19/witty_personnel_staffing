@@ -2,10 +2,11 @@
     width: 100%;
     height: auto;
     position: relative;
+    background-color: #04768a8e; /* Change color as needed */
   }
   
   .section3-content {
-    padding: 1rem;
+    padding: 2rem 1rem;
   }
 
   .section3Header {
@@ -15,7 +16,7 @@
 
   .section3Header h1 {
     font-size: 1.5rem;
-    color: var(--primary-color);
+    color: rgb(245, 239, 239);
     font-family: "kinta";
     text-align: center;
     padding: .5rem;
@@ -27,7 +28,7 @@
 
   .section3Header h2 {
     font-size: 1.2rem;
-    color: var(--primary-color);
+    color: rgb(245, 239, 239);
     font-family: 'roboto', sans-serif;
     text-align: center;
     padding: .5rem;
@@ -49,7 +50,7 @@
 .section3-flexItem {
     width: 30%;
     height: auto;
-    border: 1px solid rgba(25, 126, 209, 0.24);
+    border: 1px solid rgba(255, 255, 255, 0.336);
     border-radius: 5px;
 }
 
@@ -61,7 +62,7 @@
 
 .section3-flexItem h1 {
   font-size: 1rem;
-  color: var(--primary-color);
+  color: rgb(245, 239, 239);
   font-family: 'El Messiri', sans-serif;
   text-align: center;
   padding: .5rem 0;
@@ -71,6 +72,8 @@
 
 .section3-flexItem p {
   padding: .5rem;
+  color: rgb(236, 226, 226);
+
 }
 
 .section3-flexItem {

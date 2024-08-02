@@ -9,7 +9,7 @@ import TextAnimation from '../home/TypingAnimation';
 const HeroPage = () => {
 
   const words = [
-    "Registered Nurses",
+    "Nurses",
     "Physicians",
     "TMS Technicians",
     "Behavioral Health Technicians",

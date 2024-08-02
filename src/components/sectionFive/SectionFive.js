@@ -20,7 +20,7 @@ const SectionFive = () => {
                   <h2>At Witty Personnel, we pride ourselves on providing exceptional staffing solutions across a wide range of healthcare disciplines. Our mission is to connect talented professionals with rewarding opportunities in the healthcare industry. Explore the diverse job positions we hire for:</h2>
 
                   <ul>
-                    <li>Registered Nurses (RNs)</li>
+                    <li>Nurses</li>
                     <li>Physicians</li>
                     <li>TMS Technicians</li>
                     <li>Behavioral Health Technicians</li>
