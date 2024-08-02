@@ -69,7 +69,7 @@
     left: 0;
     right: 0;
     margin: 0 auto;    
-    background: rgb(231, 231, 230);
+    background: rgb(172, 106, 7);
     list-style: none;
     padding: 0;
     width: max-content;
@@ -80,6 +80,7 @@
   .navbar .dropdown-menu .nav-links {
     display: block;
     padding: 10px 20px;
+    color: white;
   }
   
   .navbar .dropdown-menu .nav-links:hover {

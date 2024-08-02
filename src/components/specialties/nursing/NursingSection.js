@@ -27,7 +27,6 @@ const NursingSection = () => {
                 <li>Registered Nurses (RNs)</li>
                 <li>Licensed Vocational Nurses (LVNs)</li>
                 <li>Nurse Practitioners (NPs)</li>
-                <li>Emergency Room Nurses</li>
               </ul>
             </p>
 
