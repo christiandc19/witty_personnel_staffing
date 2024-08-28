@@ -12,7 +12,7 @@ const JobSearchHero = () => {
         <Helmet>
             <meta charSet="utf-8" />
             <title>ABOUT US - Witty Personnel</title>
-            <link rel="canonical" href="https://https://55silver.biz/about" />
+            <link rel="canonical" href="https://wittypersonnel.com/about" />
         </Helmet>
 
         <div className='jobSearchHero'>

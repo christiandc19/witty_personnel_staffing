@@ -10,7 +10,7 @@ const Career = () => {
     <Helmet>
             <meta charSet="utf-8" />
             <title>CAREERS - Witty Personnel</title>
-            <link rel="canonical" href="https://https://55silver.biz/career" />
+            <link rel="canonical" href="https://wittypersonnel.com/career" />
     </Helmet>
 
 

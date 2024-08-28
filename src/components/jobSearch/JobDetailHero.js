@@ -1,5 +1,5 @@
 import React from 'react'
-// import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet";
 import './JobDetailHero.css'
 
 
@@ -8,11 +8,11 @@ const JobDetailHero = () => {
     return (
 
 <>
-        {/* <Helmet>
+        <Helmet>
             <meta charSet="utf-8" />
-            <title>ABOUT US - Witty Personnel</title>
-            <link rel="canonical" href="https://https://55silver.biz/about" />
-        </Helmet> */}
+            <title>Jobs - Witty Personnel</title>
+            <link rel="canonical" href="https://wittypersonnel.com/about" />
+        </Helmet>
 
         <div className='JobDetailHero'>
                 <div className="JobDetailHeroContent">

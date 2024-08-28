@@ -15,6 +15,7 @@ import AlliedHealth from './routes/AlliedHealthPage';
 
 // SERVICES
 import StaffingSolution from './routes/StaffingSolutionsPage';
+import PrivacyPolicyPage from './routes/PrivacyPolicyPage';
 
 
 const App = () => {
@@ -34,7 +35,7 @@ const App = () => {
         <Route exact path="/allied-health" element={<AlliedHealth />} />
         {/* Services  */}
         <Route exact path="/staffing-solutions" element={<StaffingSolution />} />
-
+        <Route exact path='/privacy-policy' element={<PrivacyPolicyPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -24,7 +24,7 @@ const Hero = () => {
         <Helmet>
             <meta charSet="utf-8" />
             <title>HOME - Witty Personnel</title>
-            <link rel="canonical" href="https://https://55silver.biz/" />
+            <link rel="canonical" href="https://wittypersonnel.com/" />
         </Helmet>
 
         <div className='hero'>
