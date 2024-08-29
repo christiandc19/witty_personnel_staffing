@@ -11,7 +11,6 @@ const HeroPage = () => {
   const words = [
     "Nurses",
     "Physicians",
-    "TMS Technicians",
     "Behavioral Health Technicians",
     "Program Directors",
     "Counselors",
